@@ -5,7 +5,7 @@ using namespace std;
 
 string seventhlevel()
 {
-
+	string total;
 	string line;
 	ifstream myfile("map6.txt");
 	if (myfile.is_open())
@@ -20,18 +20,27 @@ string seventhlevel()
 					line[index] = (char)219;
 					break;
 				case '$':
+<<<<<<< HEAD
 					line[index] = (char)176;
+=======
+					line[index] = ' '; //negative trap tile
+>>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
+					break;
+				case '!':
+					line[index] = ' '; // positive trap tile
+					break;
+				case '&':
+					line[index] = ' ';//monster tile
 					break;
 				case '@':
-					line[index] = 'M';
-					break;
-				case '%':
-					line[index] = 'E';
+					line[index] = (char)177; // ending tile
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
+		return total;
 	}
-	return line;
+	
 }

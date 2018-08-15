@@ -5,7 +5,7 @@ using namespace std;
 
 string fifthlevel()
 {
-
+	string total;
 	string line;
 	ifstream myfile("map4.txt");
 	if (myfile.is_open())
@@ -17,22 +17,25 @@ string fifthlevel()
 				switch (line[index])
 				{
 				case '#':
-					line[index] = 219;
+					line[index] = (char)219;
 					break;
 				case '$':
-					line[index] = 176;
+					line[index] = ' '; //negative trap tile
+					break;
+				case '!':
+					line[index] = ' '; // positive trap tile
+					break;
+				case '&':
+					line[index] = ' ';//monster tile
 					break;
 				case '@':
-					line[index] = 'M';
-					break;
-				case '%':
-					line[index] = 'E';
+					line[index] = (char)177; // ending tile
 					break;
 				}
 			}
-			cout << line << endl;
+			total += line + '\n';
 		}
 		myfile.close();
+		return total;
 	}
-	return line;
 }

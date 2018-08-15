@@ -78,8 +78,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Character stats screen.cpp" />
     <ClCompile Include="CharacterStats.cpp" />
+=======
+    <ClCompile Include="CombatUIEquipment.cpp" />
+    <ClCompile Include="CombatUIfight.cpp" />
+    <ClCompile Include="CombatUIMagic.cpp" />
+    <ClCompile Include="CombatUIRun.cpp" />
+>>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Equidment.cpp" />
@@ -96,8 +103,16 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Movement of Character.cpp" />
     <ClCompile Include="Start Menu.cpp" />
+=======
+    <ClCompile Include="CombatUIItems.cpp" />
+    <ClCompile Include="Titlescreen_controls.cpp" />
+    <ClCompile Include="Titlescreen_credit.cpp" />
+    <ClCompile Include="Titlescreen_exit.cpp" />
+    <ClCompile Include="Titlescreen_start.cpp" />
+>>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Charmovement.h" />
