@@ -6,7 +6,7 @@ using namespace std;
 string firstlevel()
 {
 	string line;
-	ifstream myfile("map9.txt");
+	ifstream myfile("map7.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
