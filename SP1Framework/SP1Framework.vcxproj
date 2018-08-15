@@ -87,6 +87,7 @@
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="GAMEOVER.cpp" />
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
