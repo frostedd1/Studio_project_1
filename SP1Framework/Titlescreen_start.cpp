@@ -3,11 +3,11 @@
 #include <string>
 using namespace std;
 
-string firstlevel()
+string titlestart()
 {
 	string total;
 	string line;
-	ifstream myfile("tutmap.txt");
+	ifstream myfile("start.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -16,20 +16,17 @@ string firstlevel()
 			{
 				switch (line[index])
 				{
-				case '#':
-					line[index] = (char)219;
+				case '-':
+					line[index] = (char)196;
 					break;
-				case '$':
-					line[index] = (char)176; //negative trap tile
+				case '|':
+					line[index] = (char)179;
 					break;
-				case '!':
-					line[index] = (char)178; // positive trap tile
+				case '.':
+					line[index] = (char)218;
 					break;
-				case '&':
-					line[index] = ' ';//monster tile
-					break;
-				case '@':
-					line[index] = (char)177; // ending tile
+				case ',':
+					line[index] = (char)192;
 					break;
 				}
 			}

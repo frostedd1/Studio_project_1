@@ -3,11 +3,11 @@
 #include <string>
 using namespace std;
 
-string firstlevel()
+string CombatUIMagic()
 {
 	string total;
 	string line;
-	ifstream myfile("tutmap.txt");
+	ifstream myfile("CombatUIMagic.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -16,20 +16,26 @@ string firstlevel()
 			{
 				switch (line[index])
 				{
-				case '#':
-					line[index] = (char)219;
+				case '>':
+					line[index] = (char)175;
 					break;
-				case '$':
-					line[index] = (char)176; //negative trap tile
+				case '-':
+					line[index] = (char)196;
 					break;
-				case '!':
-					line[index] = (char)178; // positive trap tile
+				case '|':
+					line[index] = (char)179;
 					break;
-				case '&':
-					line[index] = ' ';//monster tile
+				case '.':
+					line[index] = (char)192;
 					break;
-				case '@':
-					line[index] = (char)177; // ending tile
+				case ',':
+					line[index] = (char)191;
+					break;
+				case '?':
+					line[index] = (char)217;
+					break;
+				case '<':
+					line[index] = (char)218;
 					break;
 				}
 			}

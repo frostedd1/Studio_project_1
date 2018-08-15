@@ -5,8 +5,9 @@ using namespace std;
 
 string firstlevel()
 {
+	string total;
 	string line;
-	ifstream myfile("map9.txt");
+	ifstream myfile("map7.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -16,24 +17,25 @@ string firstlevel()
 				switch (line[index])
 				{
 				case '#':
-					line[index] = 219;
+					line[index] = (char)219;
 					break;
 				case '$':
-					line[index] = 176;
+					line[index] = ' '; //negative trap tile
+					break;
+				case '!':
+					line[index] = ' '; // positive trap tile
+					break;
+				case '&':
+					line[index] = ' ';//monster tile
 					break;
 				case '@':
-					line[index] = 'M';
-					break;
-				case '%':
-					line[index] = 'E';
+					line[index] = (char)177; // ending tile
 					break;
 				}
 			}
-
+			total += line + '\n';
 		}
 		myfile.close();
+		return total;
 	}
-
-
-	return line;
 }
