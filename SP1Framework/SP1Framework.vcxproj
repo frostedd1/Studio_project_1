@@ -78,34 +78,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="ComabtCalcpp.cpp" />
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Character stats screen.cpp" />
-    <ClCompile Include="CharacterStats.cpp" />
-=======
     <ClCompile Include="CombatUIEquipment.cpp" />
     <ClCompile Include="CombatUIfight.cpp" />
     <ClCompile Include="CombatUIMagic.cpp" />
     <ClCompile Include="CombatUIRun.cpp" />
->>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
-    <ClCompile Include="Equidment.cpp" />
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="GAMEOVER.cpp" />
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Inventory.cpp" />
-=======
-    <ClCompile Include="InventoryScreen.cpp" />
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
->>>>>>> 16235cbb6a2059463edabe9605e39677af42591f
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
@@ -115,22 +97,13 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Movement of Character.cpp" />
-    <ClCompile Include="Start Menu.cpp" />
-=======
     <ClCompile Include="CombatUIItems.cpp" />
     <ClCompile Include="Titlescreen_controls.cpp" />
     <ClCompile Include="Titlescreen_credit.cpp" />
     <ClCompile Include="Titlescreen_exit.cpp" />
     <ClCompile Include="Titlescreen_start.cpp" />
->>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Charmovement.h" />
     <ClInclude Include="Framework\console.h" />
     <ClInclude Include="Framework\timer.h" />
     <ClInclude Include="game.h" />
