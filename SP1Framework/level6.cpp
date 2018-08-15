@@ -5,7 +5,7 @@ using namespace std;
 
 string sixthlevel()
 {
-
+	string total;
 	string line;
 	ifstream myfile("map5.txt");
 	if (myfile.is_open())
@@ -33,8 +33,9 @@ string sixthlevel()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
 	}
-	return line;
+	return total;
 }

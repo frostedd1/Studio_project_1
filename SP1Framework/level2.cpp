@@ -5,7 +5,7 @@ using namespace std;
 
 string seclevel()
 {
-
+	string total;
 	string line;
 	ifstream myfile("map1.txt");
 	if (myfile.is_open())
@@ -33,8 +33,9 @@ string seclevel()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

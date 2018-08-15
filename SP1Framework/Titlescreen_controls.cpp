@@ -5,7 +5,7 @@ using namespace std;
 
 string titlecontrols()
 {
-
+	string total;
 	string line;
 	ifstream myfile("controls.txt");
 	if (myfile.is_open())
@@ -30,8 +30,9 @@ string titlecontrols()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

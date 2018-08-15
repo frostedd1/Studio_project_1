@@ -3,10 +3,11 @@
 #include <string>
 using namespace std;
 
-string CombatUI()
+string CombatUIEq()
 {
+	string total;
 	string line;
-	ifstream myfile("CombatUI.txt");
+	ifstream myfile("CombatUIEq.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -38,8 +39,9 @@ string CombatUI()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

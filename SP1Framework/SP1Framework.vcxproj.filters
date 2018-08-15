@@ -63,9 +63,6 @@
     <ClCompile Include="Level8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CombatUI.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
     <ClCompile Include="Titlescreen_controls.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
@@ -76,6 +73,21 @@
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
     <ClCompile Include="Titlescreen_credit.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUIfight.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUIItems.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUIMagic.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUIRun.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUIEquipment.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
   </ItemGroup>

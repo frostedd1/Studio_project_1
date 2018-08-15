@@ -3,11 +3,11 @@
 #include <string>
 using namespace std;
 
-string titleexit()
+string CombatUIMagic()
 {
 	string total;
 	string line;
-	ifstream myfile("exit.txt");
+	ifstream myfile("CombatUIMagic.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -16,6 +16,9 @@ string titleexit()
 			{
 				switch (line[index])
 				{
+				case '>':
+					line[index] = (char)175;
+					break;
 				case '-':
 					line[index] = (char)196;
 					break;
@@ -23,10 +26,16 @@ string titleexit()
 					line[index] = (char)179;
 					break;
 				case '.':
-					line[index] = (char)218;
+					line[index] = (char)192;
 					break;
 				case ',':
-					line[index] = (char)192;
+					line[index] = (char)191;
+					break;
+				case '?':
+					line[index] = (char)217;
+					break;
+				case '<':
+					line[index] = (char)218;
 					break;
 				}
 			}

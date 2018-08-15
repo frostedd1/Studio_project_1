@@ -5,6 +5,7 @@ using namespace std;
 
 string firstlevel()
 {
+	string total;
 	string line;
 	ifstream myfile("tutmap.txt");
 	if (myfile.is_open())
@@ -32,8 +33,9 @@ string firstlevel()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

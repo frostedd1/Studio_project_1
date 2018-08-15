@@ -5,7 +5,7 @@ using namespace std;
 
 string titlestart()
 {
-
+	string total;
 	string line;
 	ifstream myfile("start.txt");
 	if (myfile.is_open())
@@ -30,8 +30,9 @@ string titlestart()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 string thirdlevel()
 {
-
+	string total;
 	string line;
 	ifstream myfile("map2.txt");
 	if (myfile.is_open())
@@ -33,8 +33,9 @@ string thirdlevel()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 string titlecredits()
 {
-
+	string total;
 	string line;
 	ifstream myfile("credits.txt");
 	if (myfile.is_open())
@@ -30,8 +30,9 @@ string titlecredits()
 					break;
 				}
 			}
+			total += line + '\n';
 		}
 		myfile.close();
-		return line;
+		return total;
 	}
 }
