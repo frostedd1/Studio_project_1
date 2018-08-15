@@ -12,7 +12,7 @@ string thirdlevel()
 	{
 		while (getline(myfile, line))
 		{
-			for (int index = 0; index < line.size(); index++)
+			for (unsigned int index = 0; index < line.size(); index++)
 			{
 				switch (line[index])
 				{
