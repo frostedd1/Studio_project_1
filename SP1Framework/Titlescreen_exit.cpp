@@ -3,11 +3,11 @@
 #include <string>
 using namespace std;
 
-string seclevel()
+string titleexit()
 {
-
+	string total;
 	string line;
-	ifstream myfile("map1.txt");
+	ifstream myfile("exit.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -16,24 +16,23 @@ string seclevel()
 			{
 				switch (line[index])
 				{
-				case '#':
-					line[index] = 219;
+				case '-':
+					line[index] = (char)196;
 					break;
-				case '$':
-					line[index] = 176;
+				case '|':
+					line[index] = (char)179;
 					break;
-				case '@':
-					line[index] = 'M';
+				case '.':
+					line[index] = (char)218;
 					break;
-				case '%':
-					line[index] = 'P';
+				case ',':
+					line[index] = (char)192;
 					break;
 				}
 			}
-		
+			total += line + '\n';
 		}
 		myfile.close();
+		return total;
 	}
-	return line;
-
 }
