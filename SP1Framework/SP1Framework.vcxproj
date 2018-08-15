@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CombatUI.cpp" />
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
@@ -92,6 +93,10 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Titlescreen_controls.cpp" />
+    <ClCompile Include="Titlescreen_credit.cpp" />
+    <ClCompile Include="Titlescreen_exit.cpp" />
+    <ClCompile Include="Titlescreen_start.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h" />

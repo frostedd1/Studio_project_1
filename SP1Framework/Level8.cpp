@@ -16,7 +16,7 @@ string firstlevel()
 				switch (line[index])
 				{
 				case '#':
-					line[index] = 219;
+					line[index] = (char)219;
 					break;
 				case '$':
 					line[index] = ' '; //negative trap tile
@@ -28,7 +28,7 @@ string firstlevel()
 					line[index] = ' ';//monster tile
 					break;
 				case '@':
-					line[index] = 177; // ending tile
+					line[index] = (char)177; // ending tile
 					break;
 				}
 			}
