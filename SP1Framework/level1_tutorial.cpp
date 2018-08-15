@@ -20,7 +20,11 @@ string firstlevel()
 					line[index] = (char)219;
 					break;
 				case '$':
+<<<<<<< HEAD
+					line[index] = (char)176;
+=======
 					line[index] = (char)176; //negative trap tile
+>>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
 					break;
 				case '!':
 					line[index] = (char)178; // positive trap tile
