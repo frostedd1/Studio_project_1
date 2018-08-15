@@ -12,7 +12,7 @@ string sixthlevel()
 	{
 		while (getline(myfile, line))
 		{
-			for (int index = 0; index < line.size(); index++)
+			for (unsigned int index = 0; index < line.size(); index++)
 			{
 				switch (line[index])
 				{
@@ -20,7 +20,11 @@ string sixthlevel()
 					line[index] = (char)219;
 					break;
 				case '$':
+<<<<<<< HEAD
+					line[index] = (char)176;
+=======
 					line[index] = ' '; //negative trap tile
+>>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
 					break;
 				case '!':
 					line[index] = ' '; // positive trap tile
