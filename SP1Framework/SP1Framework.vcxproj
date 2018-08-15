@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Character stats screen.cpp" />
     <ClCompile Include="CharacterStats.cpp" />
 =======
@@ -113,6 +114,9 @@
 >>>>>>> parent of 01e236e... change
 =======
 >>>>>>> parent of 01e236e... change
+=======
+    <ClCompile Include="CombatUI.cpp" />
+>>>>>>> parent of 2dbf7ec... UIs
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
@@ -157,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Movement of Character.cpp" />
     <ClCompile Include="Start Menu.cpp" />
 =======
@@ -174,6 +179,8 @@
 =======
 >>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
     <ClCompile Include="CombatUIItems.cpp" />
+=======
+>>>>>>> parent of 2dbf7ec... UIs
     <ClCompile Include="Titlescreen_controls.cpp" />
     <ClCompile Include="Titlescreen_credit.cpp" />
     <ClCompile Include="Titlescreen_exit.cpp" />

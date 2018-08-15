@@ -30,9 +30,15 @@ string thirdlevel()
 					break;
 				}
 			}
+<<<<<<< HEAD
 
 		}
 		myfile.close();
+=======
+		}
+		myfile.close();
+		return line;
+>>>>>>> parent of 2dbf7ec... UIs
 	}
 
 	

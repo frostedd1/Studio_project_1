@@ -29,7 +29,10 @@ string firstlevel()
 					break;
 				}
 			}
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 2dbf7ec... UIs
 		}
 		myfile.close();
 	}

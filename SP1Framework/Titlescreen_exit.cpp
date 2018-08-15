@@ -3,10 +3,11 @@
 #include <string>
 using namespace std;
 
-string firstlevel()
+string titleexit()
 {
+
 	string line;
-	ifstream myfile("tutmap.txt");
+	ifstream myfile("exit.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -15,31 +16,22 @@ string firstlevel()
 			{
 				switch (line[index])
 				{
-				case '#':
-					line[index] = 219;
+				case '-':
+					line[index] = (char)196;
 					break;
-				case '$':
-					line[index] = 176;
+				case '|':
+					line[index] = (char)179;
 					break;
-				case '@':
-					line[index] = 'M';
+				case '.':
+					line[index] = (char)218;
 					break;
-				case '%':
-					line[index] = 'E';
+				case ',':
+					line[index] = (char)192;
 					break;
 				}
 			}
-<<<<<<< HEAD
-			
-		}
-		myfile.close();
-=======
 		}
 		myfile.close();
 		return line;
->>>>>>> parent of 2dbf7ec... UIs
 	}
-
-	
-	return line;
 }

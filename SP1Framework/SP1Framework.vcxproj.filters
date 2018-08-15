@@ -40,6 +40,30 @@
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
     <ClCompile Include="level4.cpp">
+<<<<<<< HEAD
+=======
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatUI.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Titlescreen_controls.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Titlescreen_start.cpp">
+>>>>>>> parent of 2dbf7ec... UIs
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
     <ClCompile Include="level5.cpp">
@@ -48,6 +72,7 @@
     <ClCompile Include="level6.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="level7.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
@@ -63,6 +88,8 @@
     <ClCompile Include="Level8.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
+=======
+>>>>>>> parent of 2dbf7ec... UIs
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h">
