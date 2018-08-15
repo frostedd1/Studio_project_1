@@ -23,12 +23,7 @@ enum EGAMESTATES
 {
     S_SPLASHSCREEN,
     S_GAME,
-    S_COUNT,
-	S_CHARACTERSTAT,
-	S_INVENTORY,
-	S_OPTIONS,
-	S_COMBAT,
-	S_CONTROLS 
+    S_COUNT
 };
 
 // struct for the game character

@@ -5,7 +5,7 @@ using namespace std;
 
 string fourthlevel()
 {
-	string total;
+
 	string line;
 	ifstream myfile("map3.txt");
 	if (myfile.is_open())
@@ -17,25 +17,22 @@ string fourthlevel()
 				switch (line[index])
 				{
 				case '#':
-					line[index] = (char)219;
+					line[index] = 219;
 					break;
 				case '$':
-					line[index] = ' '; //negative trap tile
-					break;
-				case '!':
-					line[index] = ' '; // positive trap tile
-					break;
-				case '&':
-					line[index] = ' ';//monster tile
+					line[index] = 176;
 					break;
 				case '@':
-					line[index] = (char)177; // ending tile
+					line[index] = 'M';
+					break;
+				case '%':
+					line[index] = 'P';
 					break;
 				}
 			}
-			total += line + '\n';
+			
 		}
 		myfile.close();
-		return total;
 	}
+	return line;
 }
