@@ -80,15 +80,12 @@
   <ItemGroup>
     <ClCompile Include="Character stats screen.cpp" />
     <ClCompile Include="CharacterStats.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="ComabtCalcpp.cpp" />
     <ClCompile Include="CombatUIEquipment.cpp" />
     <ClCompile Include="CombatUIfight.cpp" />
     <ClCompile Include="CombatUIMagic.cpp" />
     <ClCompile Include="CombatUIRun.cpp" />
     <ClCompile Include="CombatUI.cpp" />
-=======
->>>>>>> parent of 4230ada... Merge branch 'master' of https://github.com/frostedd1/Studio_project_1
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
@@ -108,14 +105,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Movement of Character.cpp" />
     <ClCompile Include="Start Menu.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="CombatUIItems.cpp" />
     <ClCompile Include="Titlescreen_controls.cpp" />
     <ClCompile Include="Titlescreen_credit.cpp" />
     <ClCompile Include="Titlescreen_exit.cpp" />
     <ClCompile Include="Titlescreen_start.cpp" />
-=======
->>>>>>> parent of 4230ada... Merge branch 'master' of https://github.com/frostedd1/Studio_project_1
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h" />
