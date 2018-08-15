@@ -79,6 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Character stats screen.cpp" />
     <ClCompile Include="CharacterStats.cpp" />
 =======
@@ -107,11 +108,14 @@
 >>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
 >>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
 >>>>>>> c251ec606354f851b5cad71555835d75eb89972c
+=======
+>>>>>>> parent of 01e236e... change
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <ClCompile Include="InventoryScreen.cpp" />
 =======
@@ -133,6 +137,8 @@
 >>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
 >>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
 >>>>>>> c251ec606354f851b5cad71555835d75eb89972c
+=======
+>>>>>>> parent of 01e236e... change
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
@@ -142,6 +148,7 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <ClCompile Include="Movement of Character.cpp" />
     <ClCompile Include="Start Menu.cpp" />
@@ -171,6 +178,8 @@
 >>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
 >>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
 >>>>>>> c251ec606354f851b5cad71555835d75eb89972c
+=======
+>>>>>>> parent of 01e236e... change
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h" />

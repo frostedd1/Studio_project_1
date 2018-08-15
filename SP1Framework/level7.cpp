@@ -12,15 +12,15 @@ string seventhlevel()
 	{
 		while (getline(myfile, line))
 		{
-			for (unsigned int index = 0; index < line.size(); index++)
+			for (int index = 0; index < line.size(); index++)
 			{
 				switch (line[index])
 				{
 				case '#':
-					line[index] = (char)219;
+					line[index] = 219;
 					break;
 				case '$':
-					line[index] = (char)176;
+					line[index] = 176;
 					break;
 				case '@':
 					line[index] = 'M';

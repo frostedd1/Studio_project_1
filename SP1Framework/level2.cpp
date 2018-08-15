@@ -12,7 +12,7 @@ string seclevel()
 	{
 		while (getline(myfile, line))
 		{
-			for (unsigned int index = 0; index < line.size(); index++)
+			for (int index = 0; index < line.size(); index++)
 			{
 				switch (line[index])
 				{
