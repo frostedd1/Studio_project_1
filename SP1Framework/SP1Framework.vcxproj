@@ -78,15 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CombatUIEquipment.cpp" />
-    <ClCompile Include="CombatUIfight.cpp" />
-    <ClCompile Include="CombatUIMagic.cpp" />
-    <ClCompile Include="CombatUIRun.cpp" />
+    <ClCompile Include="ComabtCalcpp.cpp" />
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
@@ -96,11 +94,6 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="CombatUIItems.cpp" />
-    <ClCompile Include="Titlescreen_controls.cpp" />
-    <ClCompile Include="Titlescreen_credit.cpp" />
-    <ClCompile Include="Titlescreen_exit.cpp" />
-    <ClCompile Include="Titlescreen_start.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h" />
