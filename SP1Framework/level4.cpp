@@ -20,10 +20,10 @@ string fourthlevel()
 					line[index] = 219;
 					break;
 				case '$':
-					line[index] = 176;
+					line[index] = ' ';
 					break;
 				case '@':
-					line[index] = 'M';
+					line[index] = 177;
 					break;
 				case '%':
 					line[index] = 'P';

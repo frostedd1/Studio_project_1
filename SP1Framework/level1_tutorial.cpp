@@ -22,7 +22,7 @@ string firstlevel()
 					line[index] = 176;
 					break;
 				case '@':
-					line[index] = 'M';
+					line[index] = 177;
 					break;
 				case '%':
 					line[index] = 'E';
