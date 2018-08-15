@@ -19,17 +19,19 @@ string firstlevel()
 					line[index] = 219;
 					break;
 				case '$':
-					line[index] = ' ';
+					line[index] = ' '; //negative trap tile
+					break;
+				case '!':
+					line[index] = ' '; // positive trap tile
+					break;
+				case '&':
+					line[index] = ' ';//monster tile
 					break;
 				case '@':
-					line[index] = 177;
-					break;
-				case '%':
-					line[index] = 'E';
+					line[index] = 177; // ending tile
 					break;
 				}
 			}
-
 		}
 		myfile.close();
 	}
