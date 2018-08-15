@@ -69,9 +69,12 @@
     <ClCompile Include="Titlescreen_controls.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Titlescreen_start.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
+=======
+>>>>>>> parent of a7c2a89... Gameover
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h">
