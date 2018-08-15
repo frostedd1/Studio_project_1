@@ -91,12 +91,9 @@
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="InventoryScreen.cpp" />
     <ClCompile Include="GAMEOVER.cpp" />
     <ClCompile Include="Inventory.cpp" />
-=======
->>>>>>> parent of a7c2a89... Gameover
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
