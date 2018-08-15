@@ -31,6 +31,7 @@ string thirdlevel()
 				}
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		}
 		myfile.close();
@@ -39,6 +40,11 @@ string thirdlevel()
 		myfile.close();
 		return line;
 >>>>>>> parent of 2dbf7ec... UIs
+=======
+
+		}
+		myfile.close();
+>>>>>>> parent of 4230ada... Merge branch 'master' of https://github.com/frostedd1/Studio_project_1
 	}
 
 	
