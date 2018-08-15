@@ -78,77 +78,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <ClCompile Include="Character stats screen.cpp" />
     <ClCompile Include="CharacterStats.cpp" />
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Character stats screen.cpp" />
-    <ClCompile Include="CharacterStats.cpp" />
-=======
-<<<<<<< HEAD
     <ClCompile Include="ComabtCalcpp.cpp" />
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Character stats screen.cpp" />
-    <ClCompile Include="CharacterStats.cpp" />
-=======
->>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
     <ClCompile Include="CombatUIEquipment.cpp" />
     <ClCompile Include="CombatUIfight.cpp" />
     <ClCompile Include="CombatUIMagic.cpp" />
     <ClCompile Include="CombatUIRun.cpp" />
-<<<<<<< HEAD
-=======
->>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
->>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
->>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
->>>>>>> c251ec606354f851b5cad71555835d75eb89972c
-=======
->>>>>>> parent of 01e236e... change
-=======
->>>>>>> parent of 01e236e... change
-=======
     <ClCompile Include="CombatUI.cpp" />
->>>>>>> parent of 2dbf7ec... UIs
     <ClCompile Include="EnemyEncounter.cpp" />
     <ClCompile Include="Enmies States.cpp" />
     <ClCompile Include="Framework\console.cpp" />
     <ClCompile Include="Framework\timer.cpp" />
     <ClCompile Include="game.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <ClCompile Include="InventoryScreen.cpp" />
-=======
-<<<<<<< HEAD
     <ClCompile Include="GAMEOVER.cpp" />
-=======
-<<<<<<< HEAD
-    <ClCompile Include="InventoryScreen.cpp" />
-=======
-<<<<<<< HEAD
-    <ClCompile Include="GAMEOVER.cpp" />
-=======
-<<<<<<< HEAD
     <ClCompile Include="Inventory.cpp" />
-=======
-    <ClCompile Include="InventoryScreen.cpp" />
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
->>>>>>> 16235cbb6a2059463edabe9605e39677af42591f
->>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
->>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
->>>>>>> c251ec606354f851b5cad71555835d75eb89972c
-=======
->>>>>>> parent of 01e236e... change
-=======
->>>>>>> parent of 01e236e... change
     <ClCompile Include="level1_tutorial.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
@@ -158,44 +103,13 @@
     <ClCompile Include="level7.cpp" />
     <ClCompile Include="Level8.cpp" />
     <ClCompile Include="main.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <ClCompile Include="Movement of Character.cpp" />
     <ClCompile Include="Start Menu.cpp" />
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Movement of Character.cpp" />
-    <ClCompile Include="Start Menu.cpp" />
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <ClCompile Include="Movement of Character.cpp" />
-    <ClCompile Include="Start Menu.cpp" />
-=======
->>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
     <ClCompile Include="CombatUIItems.cpp" />
-=======
->>>>>>> parent of 2dbf7ec... UIs
     <ClCompile Include="Titlescreen_controls.cpp" />
     <ClCompile Include="Titlescreen_credit.cpp" />
     <ClCompile Include="Titlescreen_exit.cpp" />
     <ClCompile Include="Titlescreen_start.cpp" />
-<<<<<<< HEAD
-=======
->>>>>>> a2269f7820acb356eb3cbef3d62fe1a900ee9ce4
->>>>>>> 4230ada56b8786322eadce8c0c32543d0daa54b2
->>>>>>> 3db597d64ddb61169a0c6ed6ac1894a040203975
->>>>>>> 4a68464ae10ab488316ca1fb2268edec44cd21f0
->>>>>>> c251ec606354f851b5cad71555835d75eb89972c
-=======
->>>>>>> parent of 01e236e... change
-=======
->>>>>>> parent of 01e236e... change
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\console.h" />
